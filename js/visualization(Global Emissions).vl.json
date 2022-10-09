@@ -1,0 +1,19 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "Global Co2 Emissions in year 1990 - 2019",
+  "data": {
+    "url": "https://raw.githubusercontent.com/HOOYW/FIT3179-homework-week10/main/data/Global%20Co2%20emissions.csv"
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "title": "Year"},
+    "y": {
+      "field": "Co2 emissions",
+      "type": "quantitative",
+      "title": "Co2 emissions"
+    }
+  },
+  "config": {}
+}
